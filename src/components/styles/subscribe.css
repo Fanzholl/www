@@ -1,0 +1,69 @@
+.Subscribe {
+    width: 1000px;
+    height: 400px;
+    margin: 41px auto 83px auto;
+    border-radius: 35px;
+    background-image: url("../../../public/images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Join {
+    width: 561px;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-top: 41px;
+    padding-bottom: 18px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.JoinDescription {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Subscribe form {
+    width: 500px;
+    height: 50px;
+    display: block;
+    margin: 60px auto 0 auto;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 31px;
+    background: #FFFFFF;
+}
+
+.Subscribe input {
+    width: 395px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 20px;
+    border-bottom-left-radius: 31px;
+    border-top-left-radius: 31px;
+}
+
+.Subscribe button {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 12px;
+    background: #18BD4F;
+    border-radius: 26px;
+}

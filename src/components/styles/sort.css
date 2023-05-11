@@ -1,0 +1,20 @@
+.Sort {
+    padding-top: 44px;
+}
+
+.Sort p {
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 11px;
+}
+
+.Sort img {
+    width: 16px;
+    height: 16px;
+    margin-right: 28px;
+}

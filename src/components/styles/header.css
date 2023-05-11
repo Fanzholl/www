@@ -1,0 +1,30 @@
+header {
+    width: 1200px;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: top;
+    color: #18BD4F;
+    font-family: Sofia Sans, serif;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header h1:after {
+    content: '.';
+    color: black;
+}
+
+header img {
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+}

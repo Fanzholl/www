@@ -1,0 +1,20 @@
+h1 {
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0em;
+    color: black;
+    text-align: center;
+}
+
+h1:after {
+    content: " меню";
+    color: #18BD4F;
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0em;
+    font-style: italic;
+}
