@@ -5,7 +5,7 @@ const Sort = (properties) => {
     function DownSale() {
 
         properties.setCardData( prev => [...prev].sort( (a, b) => {
-            return a.price - b.price
+            return a.price - b.price;
         }));
 
     }
@@ -13,17 +13,26 @@ const Sort = (properties) => {
     function UpSale() {
 
         properties.setCardData( prev => [...prev].sort( (a, b) => {
-            return b.price - a.price
+            return b.price - a.price;
         }));
 
     }
+
+    function UpNew() {
+
+        properties.setCardData( prev => [...prev].sort( (a, b) => {
+            return (b?.isNew) ? 1 : -1;
+        }));
+
+    }
+
     return (
         <div className={"Sort"}>
             <p onClick={UpSale}>По цене</p>
             <img src={"./images/up.svg"} alt=""/>
             <p onClick={DownSale}>По цене</p>
             <img src={"./images/down.svg"} alt=""/>
-            <p>Сначала новинки</p>
+            <p onClick={UpNew}>Сначала новинки</p>
         </div>
     );
 };
