@@ -5,9 +5,9 @@ const Sort = () => {
     return (
         <div className={"Sort"}>
             <p>По цене</p>
-            <img src="./images/up.svg" alt=""/>
+            <img src={"./images/up.svg"} alt=""/>
             <p>По цене</p>
-            <img src="./images/down.svg" alt=""/>
+            <img src={"./images/down.svg"} alt=""/>
             <p>Сначала новинки</p>
         </div>
     );

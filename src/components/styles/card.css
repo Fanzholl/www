@@ -18,9 +18,10 @@
 }
 
 .Item {
-    max-height: 182px;
+    max-width: 280px;
+    height: 182px;
     display: block;
-    margin: auto;
+    margin: 10px auto 0 auto;
 }
 
 .Data {
