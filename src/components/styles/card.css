@@ -15,6 +15,13 @@
     position:  absolute;
     top: 15px;
     right: 9px;
+    mask: url(../../../public/images/Heart.svg) no-repeat 50% 50%;
+    mask-size: cover;
+    background-color: black;
+}
+
+.HeartFavorite {
+    background-color: red;
 }
 
 .Item {

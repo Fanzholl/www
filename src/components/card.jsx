@@ -2,11 +2,20 @@ import React from 'react';
 import './styles/card.css';
 
 const Card = (properties) => {
+
+    function Favorite(event) {
+        if (event.target.classList.contains("HeartFavorite")) {
+            event.target.classList.remove("HeartFavorite")
+        } else {
+            event.target.classList.add("HeartFavorite");
+        }
+    }
+
     return (
         <div className={"Card"}>
             {(properties.sale > 0) ? <p className={"Saler"}>{properties.sale}% скидка</p> : ''}
             {(properties.isNew) ? <p className={"New"}>Новинка</p> : ''}
-            <img src={"./images/Heart.svg"} alt="" className={"Heart"}/>
+            <i className={"Heart"} onClick={Favorite}> </i>
             <img src={"./images/" + properties.img + ".png"} alt="" className={"Item"}/>
             <div className={"Data"}>
                 <p className={"ItemName"}>{properties.name}</p>
