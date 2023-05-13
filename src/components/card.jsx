@@ -15,7 +15,7 @@ const Card = (properties) => {
         <div className={"Card"}>
             {(properties.sale > 0) ? <p className={"Saler"}>{properties.sale}% скидка</p> : ''}
             {(properties.isNew) ? <p className={"New"}>Новинка</p> : ''}
-            <i className={"Heart"} onClick={Favorite}> </i>
+            <i className={"Heart"} onClick={Favorite}></i>
             <img src={"./images/" + properties.img + ".png"} alt="" className={"Item"}/>
             <div className={"Data"}>
                 <p className={"ItemName"}>{properties.name}</p>
